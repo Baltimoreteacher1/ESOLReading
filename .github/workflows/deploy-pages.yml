@@ -1,0 +1,7 @@
+name: Deploy GitHub Pages
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
